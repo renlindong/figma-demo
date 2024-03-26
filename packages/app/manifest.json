@@ -1,0 +1,12 @@
+{
+  "name": "figma-demo",
+  "id": "xxx",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["https://exp.host"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "CommonJS",
+    "lib": ["ES2018", "DOM"],
+    "declaration": true /* Specify what module code is generated. */,
+    // "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    // "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "declarationDir": "./lib",
+    "outDir": "./lib",
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "typeRoots": ["./node_modules/@figma"]
+  },
+  "include": ["src", "./node_modules/@figma"],
+  "exclude": ["node_modules"]
+}
